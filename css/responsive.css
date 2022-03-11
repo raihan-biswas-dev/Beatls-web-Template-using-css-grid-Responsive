@@ -1,0 +1,445 @@
+body {
+    overflow-x: hidden;
+}
+
+/*---------------------------------------
+             Mobile Devices
+ --------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .header_full {
+        background: #0872b9;
+        height: auto;
+    }
+
+    .header_cont {
+        width: 100%;
+        padding: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .header_icon ul li a {
+        font-size: 14px;
+        margin: 8px;
+    }
+    /* haader part end */
+
+    /* menu part start */
+
+    .menu_full {
+        padding: 0px 0;
+        padding-bottom: 20px;
+        display: none;
+    }
+
+    .menu_cont {
+        width: 100%;
+    }
+
+    span.menu_item {
+        margin-left: 1px;
+    }
+
+    .main_menu img {
+        vertical-align: middle;
+        width: 60px;
+    }
+    .menu_item a {
+        margin-top: 10px;
+    }
+    /* menu part end */
+
+    /* banner part start */
+
+    .banner_full {
+        padding: 20px 0 20px;
+    }
+
+    .banner_cont {
+        width: 100%;
+    }
+
+    .banner_cont {
+        grid-template-columns: 1fr;
+    }
+    .banner_right {
+        text-align: center;
+    }
+
+    .banner_right h3 {
+        font-size: 20px;
+    }
+
+    .banner_right h1 {
+        font-size: 25px;
+    }
+    .banner_right p {
+        padding: 0px 20px;
+    }
+
+    /* banner part end */
+
+    .about_full {
+        padding: 20px 0;
+    }
+
+    .about_cont {
+        width: 100%;
+    }
+    .about_head {
+        text-align: center;
+    }
+
+    .about_head h3 {
+        font-size: 18px;
+    }
+    .about_inner {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .about_inner img {
+        width: 100%;
+    }
+
+    .about_text {
+        margin-top: 15px;
+    }
+
+    /* about part end */
+
+    /* service part start */
+
+    .container.service_cont {
+        width: 100%;
+    }
+    .services_inner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service_head h3 {
+        font-size: 18px;
+    }
+
+    /* service part end */
+
+    /* portfolio part start */
+    .port_cont {
+        width: 100%;
+    }
+
+    .port_inner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    /* portfolio part end */
+
+    /* team part start */
+    .team_cont {
+        width: 100%;
+    }
+
+    .team_inner {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    .team_head h3 {
+        font-size: 18px;
+    }
+
+    /* team part end */
+
+    /* testimonial part start */
+    .testi_cont {
+        width: 100%;
+    }
+
+    .testimonial_inner {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+    }
+
+    .testi_head h3 {
+        font-size: 18px;
+    }
+
+    /* testimonial part end */
+
+    /* footer content menu etc start */
+    .footer_cont {
+        width: 100%;
+    }
+    .footer_main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single_footer_item_1 {
+        text-align: center;
+    }
+    .single_footer_item_3 h4,
+    .single_footer_item_4 h4,
+    .single_footer_item_2 h4 {
+        margin-left: 10px;
+    }
+    /* footer content menu etc end */
+    /* footer part start */
+    .footer_end_cont {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* footer part end */
+
+/*---------------------------------------
+             iPads, Tablets
+ --------------------------------------- */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* header part start */
+
+    .header_cont {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    /* header part end */
+
+    /* menu psrt start */
+    .menu_full {
+        display: none;
+    }
+    /* menu psrt end */
+
+    /* banner part start */
+    .banner_cont {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner_right {
+        text-align: center;
+    }
+
+    .banner_right p {
+        padding: 0px 20px;
+    }
+    /* banner part end */
+
+    /* about part start */
+
+    .about_cont {
+        width: 100%;
+    }
+
+    .about_text {
+        padding: 0px 30px;
+    }
+
+    .about_inner {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    /* about part end */
+
+    /* services part start */
+    .container.service_cont {
+        width: 100%;
+    }
+
+    .services_inner {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    /* services part end */
+
+    /* portfolio part start */
+    .port_cont {
+        width: 100%;
+    }
+    /* portfolio part end */
+    /* team part start */
+
+    .team_cont {
+        width: 100%;
+    }
+    .team_inner {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+
+    .single_team {
+        margin-bottom: 20px;
+    }
+
+    /* team part end */
+    /* testimonial part start */
+    .testi_cont {
+        width: 100%;
+    }
+
+    .testimonial_inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single_testimonial_item .testimonial_img {
+        margin-top: 15px;
+    }
+    /* testimonial part end */
+
+    /* footer menu content part start */
+    .footer_cont {
+        width: 100%;
+    }
+    .footer_main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single_footer_item_1,
+    .single_footer_item_3 {
+        margin-left: 20px;
+    }
+
+    .footer_img_main {
+        margin-right: 20px;
+    }
+    /* footer menu content part end */
+
+    /* footer part start */
+    .container.footer_end_cont {
+        width: 100%;
+    }
+    /* footer part end */
+}
+/*---------------------------------------
+             Small screens, laptops
+ --------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* menu psrt start */
+
+    /* header part start */
+    .header_cont {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    /* header part end */
+
+    .menu_full {
+        display: none;
+    }
+    /* menu psrt end */
+
+    .banner_cont {
+        width: 100%;
+    }
+
+    .banner_right {
+        margin-right: 20px;
+    }
+    /* about part start */
+
+    .container.about_cont {
+        width: 100%;
+    }
+
+    .about_inner {
+        grid-template-columns: 40% 60%;
+        grid-gap: 0 15px;
+    }
+
+    .about_text {
+        padding: 0px 50px;
+    }
+    /* about part end */
+
+    .service_cont {
+        width: 100%;
+    }
+
+    .port_cont {
+        width: 100%;
+    }
+
+    .team_cont {
+        width: 100%;
+    }
+
+    .single_team .team_img_1 .overly a {
+        margin-top: 10px;
+    }
+
+    .single_team .team_img_1 .overly ul {
+        margin-top: 4px;
+    }
+
+    .testi_cont {
+        width: 100%;
+    }
+
+    .container.footer_cont {
+        width: 100%;
+    }
+
+    .footer_end_full {
+        display: none;
+    }
+}
+
+/*---------------------------------------
+              Desktops, large screens
+ --------------------------------------- */
+/* @media (min-width: 1025px) and (max-width: 1200px) {
+    /* menu psrt start 
+    .menu_full {
+        display: none;
+    }
+    /* menu psrt end 
+
+    .banner_full {
+        display: none;
+    }
+
+    .about_full {
+        display: none;
+    }
+    .service_full {
+        display: none;
+    }
+
+    .port_full {
+        display: none;
+    }
+
+    .team_full {
+        display: none;
+    }
+
+    .testi_full {
+        display: none;
+    }
+
+    .fooert_full {
+        display: none;
+    }
+
+    .footer_end_full {
+        display: none;
+    }
+} */
+
+
+/*---------------------------------------
+                Extra large screens, TV
+ --------------------------------------- */
+/* @media (min-width: 1200px) {
+} */
